@@ -127,14 +127,35 @@ nav a:hover, .dropdown:hover .dropbtn {
     margin-bottom: 50px; /* Add some space between descriptions */
 }
 
-.descriptionplace1 img,
-.descriptionplace3 img {
-    order: 2; /* Image on the right for the first and third descriptions */
+.descriptionplace1,
+.descriptionplace2,
+.descriptionplace3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns layout */
+    gap: 20px; /* Gap between image and text */
+    margin-bottom: 50px; /* Add some space between descriptions */
 }
 
-.descriptionplace2 img {
-    order: 1; /* Image on the left for the second description */
+/* For descriptionplace1 and descriptionplace3 */
+/* Set the image on the right for descriptionplace1 and descriptionplace3 */
+.descriptionplace1 img,
+.descriptionplace3 img {
+    order: 2; /* Image on the right */
 }
+
+/* Set the image on the left for descriptionplace2 */
+.descriptionplace2 img {
+    order: -1; /* Image on the left */
+}
+
+
+/* Style for the description paragraphs */
+.aboutclementicc p,
+.westcoast p,
+.clementimall p {
+    margin-bottom: 0; /* Remove default margin for consistency */
+}
+
 
 .aboutclementicc,
 .westcoast,
