@@ -117,3 +117,53 @@ nav a:hover, .dropdown:hover .dropbtn {
 .nav-item:hover {
   background-color: #20f6dd;
 }
+
+.descriptionplace1,
+.descriptionplace2,
+.descriptionplace3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Split the layout into two columns */
+    gap: 20px; /* Gap between image and text */
+    margin-bottom: 50px; /* Add some space between descriptions */
+}
+
+.descriptionplace1 img,
+.descriptionplace3 img {
+    order: 2; /* Image on the right for the first and third descriptions */
+}
+
+.descriptionplace2 img {
+    order: 1; /* Image on the left for the second description */
+}
+
+.aboutclementicc,
+.westcoast,
+.clementimall {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.aboutclementicc h3,
+.westcoast h3,
+.clementimall h3 {
+    margin-top: 0; /* Remove default margin for consistency */
+}
+
+/* Style for the description paragraphs */
+.aboutclementicc p,
+.westcoast p,
+.clementimall p {
+    margin-bottom: 0; /* Remove default margin for consistency */
+}
+
+/* Update CSS for the images to make them square with rounded edges */
+.descriptionplace1 img,
+.descriptionplace2 img,
+.descriptionplace3 img {
+    width: 200px; /* Set width to desired size */
+    height: 200px; /* Set height to match width */
+    object-fit: cover; /* Ensure the image covers the entire container */
+    border-radius: 10px; /* Add rounded edges */
+}
