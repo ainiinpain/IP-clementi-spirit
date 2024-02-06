@@ -1,49 +1,59 @@
 body {
-  font-family:Arial, sans-serif ;
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f4f4f4;
-  flex: auto;
 }
 
-header
-{
-  background-color: rgb(61, 242, 242);
-  color:  #000000;
+header {
+  background-color: #B8EAE4;
+  color: #000000;
   padding: 10px 0;
   text-align: center;
-
 }
-nav{
-  background-color: #b8eae4;
+
+.navbar {
+  background-color: #B8EAE4;
   overflow: hidden;
-
+  display: flex;
+  justify-content: center;
 }
 
-nav a{
+
+
+nav a {
   float: left;
-  display:block;
+  display: block;
   color: #000000;
   text-align: center;
   padding: 14px 20px;
-  width:25%;
+  width: 25%;
   box-sizing: border-box;
   text-decoration: none;
 }
 
-.navbar {
-  overflow: hidden;
-  background-color: rgb(61, 242, 242);
+nav a:hover {
+  background-color: #20f6dd;
+  color: #333;
 }
 
-.navbar a {
-  float: left;
-  font-size: 16px;
-  color: rgb(61, 242, 242);
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+.clementicc {
+  text-align: center; /* Center horizontally */
+  display: flex;
+  justify-content: center; /* Center vertically */
+  align-items: center;
+  height: 100vh;
+  opacity: 50%;
 }
+
+.clementicc img {
+  width: 100%; /* Make the image fill the width of the container */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 100%; /* Ensure the image doesn't exceed its original size */
+  max-height: 100%; /* Ensure the image doesn't exceed its original size */
+}
+
+
 
 .dropdown {
   float: left;
@@ -51,10 +61,10 @@ nav a{
 }
 
 .dropdown .dropbtn {
-  font-size: 16px;  
+  font-size: 16px;
   border: none;
   outline: none;
-  color: rgb(61, 242, 242);
+  color: white;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
@@ -62,7 +72,8 @@ nav a{
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: rgb(61, 242, 242);
+  background-color: #20f6dd;
+  color: #333;
 }
 
 .dropdown-content {
@@ -70,12 +81,11 @@ nav a{
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
 .dropdown-content a {
-  float: none;
   color: black;
   padding: 12px 16px;
   text-decoration: none;
@@ -91,8 +101,36 @@ nav a{
   display: block;
 }
 
-.clementicc{
-  opacity: 50%;
-  height: 100%;
-  width: 100%;
+/* Update this style to change the color of "About" */
+.nav-item a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 20px;
+  width: 25%;
+  box-sizing: border-box;
+  text-decoration: none;
 }
+
+/* Add this style to adjust the hover color for "About" */
+.nav-item:hover a {
+  background-color: #20f6dd;
+  color: #333;
+}
+
+/* Add this style to ensure the entire "About" link is covered on hover */
+.nav-item:hover {
+  background-color: #20f6dd;
+}
+
+
+/* Add this style to adjust the color of the dropdown button */
+.dropdown .dropbtn {
+  color: black; /* Change the color to black */
+}
+
+/* Add this style to adjust the color of the dropdown links */
+.dropdown-content a {
+  color: black; /* Change the color to black */
+}
+
