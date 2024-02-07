@@ -126,7 +126,7 @@ nav a:hover, .dropdown:hover .dropbtn {
     gap: 20px; /* Gap between image and text */
     margin-bottom: 50px; /* Add some space between descriptions */
 }
-
+/* Add margin to the left side of description blocks to shift them to the right */
 .descriptionplace1,
 .descriptionplace2,
 .descriptionplace3 {
@@ -134,13 +134,22 @@ nav a:hover, .dropdown:hover .dropbtn {
     grid-template-columns: repeat(2, 1fr); /* Two columns layout */
     gap: 20px; /* Gap between image and text */
     margin-bottom: 50px; /* Add some space between descriptions */
+    margin-left: 50px; /* Adjust the value to move the blocks to the right */
+    display: flex;
 }
+
+
 
 /* For descriptionplace1 and descriptionplace3 */
 /* Set the image on the right for descriptionplace1 and descriptionplace3 */
 .descriptionplace1 img,
 .descriptionplace3 img {
     order: 2; /* Image on the right */
+}
+
+.descriptionplace1 img, 
+.descriptionplace3 img{
+  margin-left: auto;
 }
 
 /* Set the image on the left for descriptionplace2 */
@@ -183,8 +192,8 @@ nav a:hover, .dropdown:hover .dropbtn {
 .descriptionplace1 img,
 .descriptionplace2 img,
 .descriptionplace3 img {
-    width: 200px; /* Set width to desired size */
-    height: 200px; /* Set height to match width */
+    width: 220px; /* Set width to desired size */
+    height: 220px; /* Set height to match width */
     object-fit: cover; /* Ensure the image covers the entire container */
-    border-radius: 10px; /* Add rounded edges */
+    border-radius: 15px; /* Add rounded edges */
 }
