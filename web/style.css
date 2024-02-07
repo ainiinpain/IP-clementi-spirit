@@ -374,3 +374,13 @@ button[type="submit"]:hover {
   margin-top: 40px; /* Adjusted to create space between heading and paragraph */
 }
 
+.clementivideo{
+  position: relative;
+  text-align: center;
+}
+
+.clementiccmodel{
+  position: relative;
+  text-align: center;
+}
+
