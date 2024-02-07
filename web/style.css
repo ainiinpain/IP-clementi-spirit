@@ -474,3 +474,47 @@ button[type="submit"]:hover {
   text-align: center;
 }
 
+/*Jurong railway*/
+.jurongplace4 {
+  position: relative;
+  text-align: center;
+}
+
+.jurongplace4 img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 15px;
+  opacity: 50%;
+}
+
+.jurongplace4 h3,
+.jurongplace4 p {
+  position: absolute;
+  width: 80%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  margin: 0;
+}
+
+.jurongplace4 h3 {
+  margin-top: -60px; /* Adjusted to make space for the paragraph */
+}
+
+.jurongplace4 p {
+  margin-top: 40px; /* Adjusted to create space between heading and paragraph */
+}
+
+.jurongvideo{
+  position: relative;
+  text-align: center;
+}
+
+.jurongmodel{
+  position: relative;
+  text-align: center;
+}
+
