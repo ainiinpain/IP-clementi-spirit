@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="main.js" defer></script>
 </head>
 <body>
 
@@ -12,10 +13,8 @@
     </header>
 
     <div class="navbar">
-
-        <div class = "nav-item">
+        <div class="nav-item">
             <a href="main.html">About</a>
-
         </div>
         
         <div class="dropdown">
@@ -36,15 +35,14 @@
             </button>
             <div class="dropdown-content">
                 <a href="#">Minigame 1</a>
-                <a href="#">Minigame2</a>
+                <a href="#">Minigame 2</a>
             </div>
         </div>
     </div>
 
-    
     <div class="signup-container">
         <h2>Sign Up</h2>
-        <form action="#" method="POST">
+        <form id="signupForm">
             <div class="form-group">
                 <label for="username">Username:</label>
                 <input type="text" id="username" name="username" required>
@@ -57,16 +55,12 @@
                 <label for="password">Password:</label>
                 <input type="password" id="password" name="password" required>
             </div>
-            <button type="submit">Sign Up</button>
+            <button type="submit" id="signupButton">Sign Up</button>
         </form>
         <div class="signup-link">
-            Already an adventurer?  <a href="signin.html">Sign In</a>
+            Already an adventurer? <a href="signin.html">Sign In</a>
         </div>
     </div>
-
-</body>
-</html>
-
 
 </body>
 </html>
