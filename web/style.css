@@ -5,6 +5,8 @@ body {
   background-color: #f4f4f4;
 }
 
+
+/*CSS for the main page content*/
 header {
   background-color: #B8EAE4;
   color: #000000;
@@ -46,7 +48,10 @@ nav a:hover, .dropdown:hover .dropbtn {
 
 .clementicc {
   position: relative;
+  display: flex;
+  flex-direction: column;
   text-align: center; /* Center the text */
+  align-items: center;
 }
 
 .clementicc img {
@@ -137,6 +142,8 @@ nav a:hover, .dropdown:hover .dropbtn {
   background-color: #20f6dd;
 }
 
+/*CSS for the content of main page*/
+
 .descriptionplace1,
 .descriptionplace2,
 .descriptionplace3 {
@@ -200,14 +207,16 @@ nav a:hover, .dropdown:hover .dropbtn {
     margin-top: 0; /* Remove default margin for consistency */
 }
 
-/* Style for the description paragraphs */
+
 .aboutclementicc p,
 .westcoast p,
 .clementimall p {
-    margin-bottom: 0; /* Remove default margin for consistency */
+    margin-bottom: 0; 
 }
 
-/* Update CSS for the images to make them square with rounded edges */
+/* make picture/image rounder*/
+
+
 .descriptionplace1 img,
 .descriptionplace2 img,
 .descriptionplace3 img {
@@ -218,6 +227,10 @@ nav a:hover, .dropdown:hover .dropbtn {
 }
 
 /*CSS for sign in*/
+
+
+
+
 .signin-container {
     max-width: 400px;
     margin: 0 auto;
@@ -268,7 +281,11 @@ button[type="submit"]:hover {
     margin-top: 10px;
     font-size: 14px;
 }
-/* Add styles for the sign-up container */
+
+
+/*sign up css*/
+
+
 .signup-container {
   max-width: 400px;
   margin: 0 auto;
@@ -319,5 +336,41 @@ button[type="submit"]:hover {
 .signup-link {
   margin-top: 10px;
   font-size: 14px;
+}
+
+/*clementi place1 after hover and click*/
+
+
+.clementiccplace1 {
+  position: relative;
+  text-align: center;
+}
+
+.clementiccplace1 img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 15px;
+  opacity: 50%;
+}
+
+.clementiccplace1 h3,
+.clementiccplace1 p {
+  position: absolute;
+  width: 80%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  margin: 0;
+}
+
+.clementiccplace1 h3 {
+  margin-top: -60px; /* Adjusted to make space for the paragraph */
+}
+
+.clementiccplace1 p {
+  margin-top: 40px; /* Adjusted to create space between heading and paragraph */
 }
 
