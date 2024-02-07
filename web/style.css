@@ -384,3 +384,93 @@ button[type="submit"]:hover {
   text-align: center;
 }
 
+/*west coast park the css*/
+.westcoastparkplace2 {
+  position: relative;
+  text-align: center;
+}
+
+.westcoastparkplace2 img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 15px;
+  opacity: 50%;
+}
+
+.westcoastparkplace2 h3,
+.westcoastparkplace2 p {
+  position: absolute;
+  width: 80%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  margin: 0;
+}
+
+.westcoastparkplace2 h3 {
+  margin-top: -60px; /* Adjusted to make space for the paragraph */
+}
+
+.westcoastparkplace2 p {
+  margin-top: 40px; /* Adjusted to create space between heading and paragraph */
+}
+
+.westcoastvid{
+  position: relative;
+  text-align: center;
+}
+
+.westcoastmodel{
+  position: relative;
+  text-align: center;
+}
+
+/*clementi mall css*/
+
+
+.clementimallplace3 {
+  position: relative;
+  text-align: center;
+}
+
+.clementimallplace3 img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 15px;
+  opacity: 50%;
+}
+
+.clementimallplace3 h3,
+.clementimallplace3 p {
+  position: absolute;
+  width: 80%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  margin: 0;
+}
+
+.clementimallplace3 h3 {
+  margin-top: -60px; /* Adjusted to make space for the paragraph */
+}
+
+.clementimallplace3 p {
+  margin-top: 40px; /* Adjusted to create space between heading and paragraph */
+}
+
+.clementimallvideo{
+  position: relative;
+  text-align: center;
+}
+
+.clementimallmodel{
+  position: relative;
+  text-align: center;
+}
+
