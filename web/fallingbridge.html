@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="main.js" defer></script>
 </head>
 <body>
 
@@ -13,7 +12,8 @@
     </header>
 
     <div class="navbar">
-        <div class="nav-item">
+
+        <div class = "nav-item">
             <a href="main.html">About</a>
         </div>
         
@@ -39,29 +39,33 @@
                 <a href="factornext.html">Facts or Next</a>
             </div>
         </div>
-    </div>
-
-    <div class="signup-container">
-        <h2>Sign Up</h2>
-        <form id="signupForm">
-            <div class="form-group">
-                <label for="username">Username:</label>
-                <input type="text" id="username" name="username" required>
-            </div>
-            <div class="form-group">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-            </div>
-            <div class="form-group">
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password" required>
-            </div>
-            <button type="submit" id="signupButton">Sign Up</button>
-        </form>
-        <div class="signup-link">
-            Already an adventurer? <a href="signin.html">Sign In</a>
+        <div class = "nav-item">
+            <a href="signin.html">Login</a>
         </div>
+
     </div>
 
+    <div class="rules">
+        <ul>
+            <li>Scan the book that have the picture of the railway</li>
+            <li>Click on the falling pieces to stop the pieces falling into the water</li>
+            <li>If failed to stop the pieces from falling and the bridge integrity hits 0, the bridge will break and will not be in used for 5 seconds(no one is able to cross while it is broken).</li>
+            <li>To score some points, you will have to make sure the person fully crosses without the bridge breaking</li>
+            <li>Have fun!</li>
+        </ul>
+    </div>
+
+    <div class="leaderboard">
+
+        <h2>Here are your top players!</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Username</th>
+                    <th>Score</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
 </body>
 </html>

@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="main.js" defer></script>
 </head>
 <body>
 
@@ -13,7 +12,8 @@
     </header>
 
     <div class="navbar">
-        <div class="nav-item">
+
+        <div class = "nav-item">
             <a href="main.html">About</a>
         </div>
         
@@ -39,29 +39,33 @@
                 <a href="factornext.html">Facts or Next</a>
             </div>
         </div>
-    </div>
-
-    <div class="signup-container">
-        <h2>Sign Up</h2>
-        <form id="signupForm">
-            <div class="form-group">
-                <label for="username">Username:</label>
-                <input type="text" id="username" name="username" required>
-            </div>
-            <div class="form-group">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-            </div>
-            <div class="form-group">
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password" required>
-            </div>
-            <button type="submit" id="signupButton">Sign Up</button>
-        </form>
-        <div class="signup-link">
-            Already an adventurer? <a href="signin.html">Sign In</a>
+        <div class = "nav-item">
+            <a href="signin.html">Login</a>
         </div>
+
     </div>
 
+    <div class="rules">
+        <ul>
+            <li>Scan the book that have an image of the playground</li>
+            <li>The game is a true or false minigame</li>
+            <li>It only tests your knowledge of the various landmark of clementi</li>
+            <li>When players guessed the questions correctly,they earn 2 points but if they do not, they lose a point</li>
+            <li>Have fun!</li>
+        </ul>
+    </div>
+
+    <div class="leaderboard">
+
+        <h2>Here are your top players!</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Username</th>
+                    <th>Score</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
 </body>
 </html>
