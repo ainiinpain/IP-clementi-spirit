@@ -523,6 +523,7 @@ button[type="submit"]:hover {
 
 .leaderboard {
   margin: 20px;
+  text-align: center;
 }
 
 table {
