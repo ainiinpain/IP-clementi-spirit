@@ -598,3 +598,14 @@ button[type="submit"] {
 button[type="submit"]:hover {
   background-color: #1ed4bf;
 }
+
+/*splish splash css*/
+
+.rules {
+  text-align: center;
+  background-color: #B8EAE4;
+  padding: 20px;
+  border-radius: 15px; /* Add border-radius for rounded corners */
+  margin: 20px; /* Add margin for spacing */
+}
+
