@@ -20,3 +20,14 @@ document.addEventListener('DOMContentLoaded', function() {
         window.location.href = "signin.html";
     });
 });
+
+// JavaScript function to handle Sign In form submission
+document.addEventListener('DOMContentLoaded', function() {
+    document.querySelector('.signin-container form').addEventListener('submit', function(event) {
+        // Prevent default form submission
+        event.preventDefault();
+
+        // Redirect to another page
+        window.location.href = "ccafterlogedin.html"; // Change "profile.html" to the desired destination page
+    });
+});

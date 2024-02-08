@@ -588,7 +588,7 @@ input[type="password"] {
 button[type="submit"] {
   width: 100%;
   padding: 10px;
-  background-color: #e44b4b;
+  background-color: #20f6dd;
   color: #ffffff;
   border: none;
   border-radius: 5px;
@@ -596,5 +596,5 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-  background-color: #b93333;
+  background-color: #1ed4bf;
 }
