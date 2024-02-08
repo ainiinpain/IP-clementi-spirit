@@ -518,3 +518,33 @@ button[type="submit"]:hover {
   text-align: center;
 }
 
+
+/*LEADERBOARD CSS*/
+
+.leaderboard {
+  margin: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+thead {
+  background-color: #20f6dd;
+  text-align: center;
+}
+
+th, td {
+  border: 1px solid #20f6dd;
+  padding: 8px;
+  text-align: left;
+  text-align: center;
+}
+
+th {
+  background-color: #20f6dd;
+  color: #333;
+  text-align: center;
+}
